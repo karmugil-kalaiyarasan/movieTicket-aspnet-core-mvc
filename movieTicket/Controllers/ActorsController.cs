@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using movieTicket.Data;
 using movieTicket.Data.Services;
+using movieTicket.Data.Static;
 using movieTicket.Models;
 using System;
 using System.Collections.Generic;
@@ -10,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace movieTicket.Controllers
 {
+    [Authorize(Roles = UserRoles.Admin)]
     public class ActorsController : Controller
     {
         private readonly IActorsService _service;
@@ -18,6 +21,7 @@ namespace movieTicket.Controllers
             _service = service;
         }
 
+        [AllowAnonymous]
         //GET:Actors/Index
         public async Task<IActionResult> Index()
         {
@@ -64,6 +68,7 @@ namespace movieTicket.Controllers
         }
 
         //GET:Actors/Details/1
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int id)
         {
             var actorDetails = await _service.GetByIdAsync(id);
