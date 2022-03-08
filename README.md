@@ -1,4 +1,4 @@
-[# movieTicket-aspnet-core5-mvc](https://movietickets-app.azurewebsites.net/)
+# [movieTicket-aspnet-core5-mvc](https://movietickets-app.azurewebsites.net/)
 
 <h3>Live Link:<h3>
 
