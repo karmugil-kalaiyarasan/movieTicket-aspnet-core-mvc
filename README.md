@@ -4,7 +4,7 @@
 
 * Here is the live azure link for the website: https://movietickets-app.azurewebsites.net/
 
-###Login Credentials###:
+### Login Credentials ###:
 
 * To Login as a normal user use the following username and password,
   username: karmugil@gmail.com
