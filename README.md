@@ -32,11 +32,12 @@
 ### Logout:
 * On clicking logout the user will be logged out and taken to the home page of the website.
 
-
-For the frontend I have used the Razor views and Bootstrap.
-Used Azure SQL server for the database and Entity framework is used to create migrations for the database.
-Created a base service and repositories for all the actions which can be reused under multiple controllers.
-For payment integrated Paypal developer sandbox.
-Have used authentication system for login process.
-Added authorization to differentiate admin and normal user to create access layers based on the user privileges.
-Deployed on Azure with the help of azure App services.
+### Project Details:
+* For the frontend I have used the Razor views and Bootstrap4.
+* Used Azure SQL server for the database and Entity framework is used to create migrations for the database.
+* Created a base service and repositories for all the actions which can be reused under multiple controllers.
+* For payment integrated Paypal developer sandbox.
+* Have used authentication system for login process.
+* Added authorization to differentiate admin and normal user to create access layers based on the user privileges.
+* Have used View components and view models.
+* Populated the data for the database by using a "AppDbInitializer.cs" file under ["movieTicket-aspnet-core-mvc/movieTicket/Data/"](https://github.com/karmugil-kalaiyarasan/movieTicket-aspnet-core-mvc/tree/master/movieTicket/Data) which will populate the database with the data to the database if it empty.
