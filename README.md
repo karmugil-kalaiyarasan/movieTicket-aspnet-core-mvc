@@ -4,17 +4,17 @@
 
 * Here is the live azure link for the website: https://movietickets-app.azurewebsites.net/
 
-###Login Credentials:
+###Login Credentials###:
 
 * To Login as a normal user use the following username and password,
   username: karmugil@gmail.com
   password: Code@1234?
 
-*To Login as a admin user use the following username and password,
+* To Login as a admin user use the following username and password,
   username: admin@tickets.com
   password: Code@1234?
 
-*When you are registering or creating a new user always use the password "Code@1234?"
+* When you are registering or creating a new user always use the password "Code@1234?"
 
 ###Payment:
 *For the payment system I have created a developer sandbox accout so that you can pay using paypal without paying using real money. 
