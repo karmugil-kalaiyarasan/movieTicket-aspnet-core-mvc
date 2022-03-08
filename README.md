@@ -2,7 +2,7 @@
 
 <h3>Live Link:<h3>
 
-* Here is the live azure link for the website: https://movietickets-app.azurewebsites.net/
+* Here is the live azure link for the website: [https://movietickets-app.azurewebsites.net/](https://movietickets-app.azurewebsites.net/)
 
 ### Login Credentials:
 
