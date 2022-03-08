@@ -11,26 +11,26 @@
   password: Code@1234?
 
 * To Login as a admin user use the following username and password,
-  username: admin@tickets.com
-  password: Code@1234?
+   * username: admin@tickets.com
+   * password: Code@1234?
 
 * When you are registering or creating a new user always use the password "Code@1234?"
 
-###Payment:
-*For the payment system I have created a developer sandbox accout so that you can pay using paypal without paying using real money. 
-*On clicking paypal payment link a paypal payment tab will open which will ask for the paypal username and password. Please provide the below mentioned username and password to avoid any issues. The username and password for the paypal payment are,
-  username: sb-xo7n214211704@personal.example.com
-  password: 12345678
-*Once you have logged into the paypal account on the payment method select the "Paypal Balance" option and then click pay now.
+### Payment:
+* For the payment system I have created a developer sandbox accout so that you can pay using paypal without paying using real money. 
+* On clicking paypal payment link a paypal payment tab will open which will ask for the paypal username and password. Please provide the below mentioned username and password to avoid any issues. The username and password for the paypal payment are,
+  * username: sb-xo7n214211704@personal.example.com
+  * password: 12345678
+* Once you have logged into the paypal account on the payment method select the "Paypal Balance" option and then click pay now.
 
-###Orders:
-*There is an orders option available on the username dropdown where you can find all the orders.
+### Orders:
+* There is an orders option available on the username dropdown where you can find all the orders.
 
-###Show Details:
-*On clicking show details option you can find the links for the Cinemas, Actors and Producers where you can see the details for that option and see all the cinemas, actors and producers available on this website by using show all button.
+### Show Details:
+* On clicking show details option you can find the links for the Cinemas, Actors and Producers where you can see the details for that option and see all the cinemas, actors and producers available on this website by using show all button.
 
-###Logout:
-*On clicking logout the user will be logged out and taken to the home page of the website.
+### Logout:
+* On clicking logout the user will be logged out and taken to the home page of the website.
 
 
 For the frontend I have used the Razor views and Bootstrap.
