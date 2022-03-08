@@ -2,11 +2,11 @@
 
 <h3>Live Link:<h3>
 
-*Here is the live azure link for the website: https://movietickets-app.azurewebsites.net/
+* Here is the live azure link for the website: https://movietickets-app.azurewebsites.net/
 
 ###Login Credentials:
 
-*To Login as a normal user use the following username and password,
+* To Login as a normal user use the following username and password,
   username: karmugil@gmail.com
   password: Code@1234?
 
